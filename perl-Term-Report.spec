@@ -15,7 +15,6 @@ Source:         http://www.cpan.org/modules/by-module/Term/%{module}-%{version}.
 BuildRequires:  perl-devel
 %endif
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 Term::Report can be used to generate nicely formatted dynamic output. It can
