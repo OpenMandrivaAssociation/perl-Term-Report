@@ -1,7 +1,7 @@
 %define module  Term-Report
 %define name    perl-%{module}
 %define version 1.18
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name:           %{name}
 Version:        %{version}
