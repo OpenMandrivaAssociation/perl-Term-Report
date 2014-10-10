@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 Summary:	Easy way to create dynamic 'reports' from within scripts
 License:	GPL+ or Artistic
