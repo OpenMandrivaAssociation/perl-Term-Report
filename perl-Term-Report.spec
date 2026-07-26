@@ -1,15 +1,13 @@
 %define upstream_name    Term-Report
-%define upstream_version 1.18
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.18
+Release:	7
 
 Summary:	Easy way to create dynamic 'reports' from within scripts
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Term-Report
-Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHAYH/Term-Report-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHAYH/Term-Report-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -48,9 +46,7 @@ make test
 
 * Sat Aug 01 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.180.0-1mdv2010.0
 + Revision: 405541
-- rebuild using %%perl_convert_version
-
-* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.18-10mdv2009.0
+- rebuild using %1.18 Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.18-10mdv2009.0
 + Revision: 258508
 - rebuild
 
